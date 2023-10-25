@@ -9,7 +9,7 @@ This will make updating all my systems with specific prefences and tools from a 
 
 1. Create a basic NixOS system config for different systems (`Virtualbox VM` and  `Lenovo X230 Laptop`) that has the following basic configurations:
    * [ ] Systemd bootloader (EFI)
-   * [ ] Luks Encrypted partitions (different passwords) - Challenge: How to secure these passwords (from this public repo) while making them available to NixOS to build with.  
+   * [ ] Luks Encrypted partitions (different passwords) - Challenge: How to secure these passwords (from this public repo) while making them available to NixOS to build with. [Some ideas here](https://nixos.wiki/wiki/Comparison_of_secret_managing_schemes)
    * [ ] Loading screens - Challenge: How to dynamically select loading screen based on system
    * [ ] Hardware Specific - Challenge: Dynamically select the hardware configs while avoiding `nixos-generate-config` from overriding the config.
 
